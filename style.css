@@ -1,0 +1,36 @@
+
+
+.fan{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ top: 20%;
+ left: 12%;
+}
+
+img{
+ width: 30vmin;
+ height: 30vmin;
+ animation: fan linear  infinite;
+}
+
+@keyframes fan{
+ 100%{
+  transform: rotate(360deg);
+ }
+}
+
+button{
+ padding: 10px;
+ border-radius: 50%;
+ margin-top: 30%;
+ margin-left: 15px;
+}
+
+button:hover{
+ background:blue;
+ color: white;
+}
+
