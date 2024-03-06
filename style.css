@@ -10,10 +10,9 @@
  left: 12%;
 }
 
-img{
- width: 30vmin;
- height: 30vmin;
+i{
  animation: fan linear  infinite;
+ font-size: 50vmin;
 }
 
 @keyframes fan{
